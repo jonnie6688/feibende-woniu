@@ -182,7 +182,7 @@ export const projects: Project[] = [
   },
   {
     id: 'p8',
-    title: 'AI 玄幻视频 — 敦煌千佛',
+    title: 'AI 玄幻视频 — 开局上交修仙界',
     category: '影视概念',
     description:
       '融合敦煌美学与玄幻修仙题材，用 AI 生成具有东方史诗质感的影视概念视频，呈现宏大叙事与视觉奇观。',

@@ -1,8 +1,11 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { personalInfo } from '@/data/portfolio';
 import { PREMIUM, DUR, STAG, VIEWPORT } from '@/styles/animations';
+import SiteStats from '@/components/SiteStats';
+import { useVisitorCount } from '@/hooks/useVisitorCount';
 
 export default function ContactFooter() {
+  const visitorCount = useVisitorCount(1280);
   return (
     <section id="contact" className="relative min-h-screen flex items-center">
       {/* Background Glow */}
@@ -40,6 +43,9 @@ export default function ContactFooter() {
               </motion.div>
             </div>
           </div>
+
+          {/* Site Stats */}
+          <SiteStats visitorCount={visitorCount} />
 
           {/* Description */}
           <motion.p

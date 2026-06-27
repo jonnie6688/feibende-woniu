@@ -55,7 +55,7 @@ export default function Hero() {
       {/* ── Video Background ────────────────────────────────── */}
       <motion.video
         ref={videoRef}
-        src="/hero-bg.mp4"
+        src="hero-bg.mp4"
         autoPlay
         muted
         loop

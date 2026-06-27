@@ -54,7 +54,7 @@ export default function AiHomeDesign() {
               {/* Image with Ken Burns effect */}
               <div className="w-full overflow-hidden">
                 <img
-                  src="/section-ai-home.jpg"
+                  src="section-ai-home.jpg"
                   alt="从平面到实景 · 还原理想生活"
                   className="w-full h-auto object-contain carousel-ken-burns"
                   draggable={false}

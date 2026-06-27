@@ -57,37 +57,37 @@ export const personalInfo = {
 export const heroSlides: HeroSlide[] = [
   {
     id: 'slide-1',
-    src: '/works-interior-collage.jpg',
+    src: 'works-interior-collage.jpg',
     alt: '室内空间设计作品集九宫格',
     label: '空间渲染',
   },
   {
     id: 'slide-2',
-    src: '/works-luxury-living.jpg',
+    src: 'works-luxury-living.jpg',
     alt: 'AI 影视分镜：现代轻奢客餐厨一体化空间',
     label: 'AI 影视分镜',
   },
   {
     id: 'slide-3',
-    src: '/works-sci-fi-storyboard.jpg',
+    src: 'works-sci-fi-storyboard.jpg',
     alt: '室内空间设计：科幻风格叙事场景',
     label: '室内空间设计',
   },
   {
     id: 'slide-4',
-    src: '/works-vintage-wardrobe.jpg',
+    src: 'works-vintage-wardrobe.jpg',
     alt: '法式复古衣帽间定制设计',
     label: '定制柜体',
   },
   {
     id: 'slide-5',
-    src: '/works-anime.webp',
+    src: 'works-anime.webp',
     alt: '动漫角色设计与制作',
     label: '动漫制作',
   },
   {
     id: 'slide-6',
-    src: '/works-portrait.jpg',
+    src: 'works-portrait.jpg',
     alt: '人像摄影：竹林旗袍写真',
     label: '人像摄影',
   },
@@ -102,8 +102,8 @@ export const projects: Project[] = [
       '为小米 SU7 Ultra 打造的高品质汽车广告视频，金橙色车身赛道场景与觉醒的野兽主题结合，突出产品性能与科技美学。',
     image: '',
     media: [
-      { type: 'video', src: '/tvc-xiaomi-1.mp4', poster: '/tvc-xiaomi-1.jpg', alt: '小米SU7 Ultra 金橙色赛道场景' },
-      { type: 'video', src: '/tvc-xiaomi-2.mp4', poster: '/tvc-xiaomi-2.jpg', alt: '小米SU7 Ultra 觉醒的野兽主题' },
+      { type: 'video', src: 'tvc-xiaomi-1.mp4', poster: 'tvc-xiaomi-1.jpg', alt: '小米SU7 Ultra 金橙色赛道场景' },
+      { type: 'video', src: 'tvc-xiaomi-2.mp4', poster: 'tvc-xiaomi-2.jpg', alt: '小米SU7 Ultra 觉醒的野兽主题' },
     ],
     tags: ['AI 视频', '汽车广告', '即梦', '商业项目'],
   },
@@ -115,8 +115,8 @@ export const projects: Project[] = [
       '国风游戏 UI 界面设计，融合黑神话美学体系与古典东方元素，打造沉浸式主菜单与角色展示页面。',
     image: '',
     media: [
-      { type: 'image', src: '/proj-game-1.jpg', alt: '苏妲己 主菜单界面' },
-      { type: 'image', src: '/proj-game-2.jpg', alt: '潘金莲 角色选择界面' },
+      { type: 'image', src: 'proj-game-1.jpg', alt: '苏妲己 主菜单界面' },
+      { type: 'image', src: 'proj-game-2.jpg', alt: '潘金莲 角色选择界面' },
     ],
     tags: ['UI 设计', '国风游戏', '界面交互'],
   },
@@ -128,7 +128,7 @@ export const projects: Project[] = [
       '为内衣品牌定制的 AI 视频广告，注重场景氛围、光影质感与运镜节奏，呈现高级视觉调性。',
     image: '',
     media: [
-      { type: 'video', src: '/tvc-underwear.mp4', poster: '/tvc-underwear.jpg', alt: '内衣品牌 AI 视频广告' },
+      { type: 'video', src: 'tvc-underwear.mp4', poster: 'tvc-underwear.jpg', alt: '内衣品牌 AI 视频广告' },
     ],
     tags: ['AI 视频', '品牌广告', '即梦', '商业项目'],
   },
@@ -140,7 +140,7 @@ export const projects: Project[] = [
       '为小牛电动车打造的 AI 生成视频广告，结合城市场景与产品特性，突出科技感与出行生活方式。',
     image: '',
     media: [
-      { type: 'video', src: '/tvc-niu-ev.mp4', poster: '/tvc-niu-ev.jpg', alt: '小牛电动车 AI 视频广告' },
+      { type: 'video', src: 'tvc-niu-ev.mp4', poster: 'tvc-niu-ev.jpg', alt: '小牛电动车 AI 视频广告' },
     ],
     tags: ['AI 视频', '电动车广告', '即梦', '商业项目'],
   },
@@ -152,7 +152,7 @@ export const projects: Project[] = [
       '为路亚钓鱼装备品牌制作的 AI 视频广告，展现户外运动场景与产品细节，融合自然光影与动感运镜。',
     image: '',
     media: [
-      { type: 'video', src: '/tvc-luya.mp4', poster: '/tvc-luya.jpg', alt: '路亚装备 AI 视频广告' },
+      { type: 'video', src: 'tvc-luya.mp4', poster: 'tvc-luya.jpg', alt: '路亚装备 AI 视频广告' },
     ],
     tags: ['AI 视频', '运动装备', '即梦', '商业项目'],
   },
@@ -164,7 +164,7 @@ export const projects: Project[] = [
       '为雅立全屋定制品牌打造的品牌广告视频，围绕环保理念与家居场景，传递品质生活与绿色制造的品牌主张。',
     image: '',
     media: [
-      { type: 'video', src: '/tvc-yali.mp4', poster: '/tvc-yali.jpg', alt: '雅立全屋定制环保篇广告' },
+      { type: 'video', src: 'tvc-yali.mp4', poster: 'tvc-yali.jpg', alt: '雅立全屋定制环保篇广告' },
     ],
     tags: ['品牌广告', '全屋定制', '环保理念', '商业项目'],
   },

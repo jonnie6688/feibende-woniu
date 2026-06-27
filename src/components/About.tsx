@@ -101,7 +101,7 @@ export default function About() {
             >
               <div className="relative w-full h-full min-h-[420px] lg:min-h-[520px] overflow-hidden rounded-[2rem]">
                 <motion.img
-                  src="/avatar.jpg"
+                  src="avatar.jpg"
                   alt={personalInfo.name}
                   className="absolute inset-0 w-full h-full object-contain object-center"
                   initial={{ scale: 1.06 }}

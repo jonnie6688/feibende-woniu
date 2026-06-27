@@ -168,6 +168,30 @@ export const projects: Project[] = [
     ],
     tags: ['品牌广告', '全屋定制', '环保理念', '商业项目'],
   },
+  {
+    id: 'p7',
+    title: 'AI 概念短片 — 不存在的黄裙子',
+    category: 'AI 实验',
+    description:
+      '以「不存在的黄裙子」为主题创作的 AI 概念短片，探索人工智能在时尚叙事与超现实视觉中的表达可能。',
+    image: '',
+    media: [
+      { type: 'video', src: 'tvc-yellow-dress.mp4', poster: 'tvc-yellow-dress.jpg', alt: '不存在的黄裙子 AI 概念短片' },
+    ],
+    tags: ['AI 视频', '概念短片', '实验影像', 'AIGC'],
+  },
+  {
+    id: 'p8',
+    title: 'AI 玄幻视频 — 敦煌千佛',
+    category: '影视概念',
+    description:
+      '融合敦煌美学与玄幻修仙题材，用 AI 生成具有东方史诗质感的影视概念视频，呈现宏大叙事与视觉奇观。',
+    image: '',
+    media: [
+      { type: 'video', src: 'tvc-dunhuang.mp4', poster: 'tvc-dunhuang.jpg', alt: '敦煌千佛 AI 玄幻影视概念' },
+    ],
+    tags: ['AI 视频', '玄幻概念', '敦煌美学', '影视预演'],
+  },
 ];
 
 export const skills: Skill[] = [
